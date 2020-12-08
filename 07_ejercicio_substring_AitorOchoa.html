@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Escribe un programa que recupere una subcadena de un string en otra variable usando una función.
+        let cadena = prompt("Introduzca un string");
+        let pos_inicial = prompt("Introduzca posición inicial del string");
+        let pos_final = prompt("Introduzca posición final del string");
+        let subcadena = cadena.substring(pos_inicial-1, pos_final-1); //ojo, 'posicion' de .substring es posicion-1.
+        console.log("La subcadena para el string " + cadena + " en la posición inicial " + pos_inicial + " y posición final " + pos_final + " es: " + subcadena);
+    </script>
+</body>
+
+</html>
